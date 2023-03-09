@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<Configure3S.Models.TbApiconfigure> 
+
+@{
+}
+@section CSS{ 
+    <link href="~/css/list-api-config.css" rel="stylesheet"/>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+}
+<h1>Đăng nhập thành công</h1>
+<div class="list">
+    <div class="heading">
+        <h4>Your API Configuration</h4>
+    </div>
+    <form>
+        <input type="search" placeholder="Invoice Search">
+        <input type="text" placeholder="Search by Title">
+        <input type="submit" value="Search">
+
+    </form>
+    <div class="main-apiconf">
+        <span class="edit">
+            <span>Edit</span>
+        </span>
+        <span class="delete">
+            <span>Delete</span>
+        </span>
+        <span class="sourceId">
+            <span>Source ID</span>
+        </span>
+        <span class="companyId">
+            <span>Your Company ID</span>
+        </span>
+        <span class="apikey">
+            <span>API Key</span>
+        </span>
+        <span class="apiurl">
+            <span>API URL</span>
+        </span>
+        <span class="username">
+            <span>User Name</span>
+        </span>
+        <span class="password">
+            <span>Password</span>
+        </span>
+    </div>
+    <div class="items">
+        <div class="item">
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-trash-o" aria-hidden="true"></i></a></span>
+            <span>Cheese Pizza</span>
+            <span>Mark Willy</span>
+            <span>05</span>
+            <span>$2,590</span>
+            <span>+123 9856047</span>
+            <span>+123 9856047</span>
+        </div>
+        <div class="item">
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-trash-o" aria-hidden="true"></i></a></span>
+            <span>Cheese Pizza</span>
+            <span>Mark Willy</span>
+            <span>05</span>
+            <span>$2,590</span>
+            <span>+123 9856047</span>
+            <span>+123 9856047</span>
+        </div>
+        <div class="item">
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-trash-o" aria-hidden="true"></i></a></span>
+            <span>Cheese Pizza</span>
+            <span>Mark Willy</span>
+            <span>05</span>
+            <span>$2,590</span>
+            <span>+123 9856047</span>
+            <span>+123 9856047</span>
+        </div>
+        <div class="item">
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
+            <span><a asp-action="" asp-route-id=""><i class="fa fa-trash-o" aria-hidden="true"></i></a></span>
+            <span>Cheese Pizza</span>
+            <span>Mark Willy</span>
+            <span>05</span>
+            <span>$2,590</span>
+            <span>+123 9856047</span>
+            <span>+123 9856047</span>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="showing">
+            <span>Showing 1-30 / 150 Results</span>
+        </div>
+        <div class="number">
+            <span>Previous</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>Next</span>
+        </div>
+    </div>
+</div>
